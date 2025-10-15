@@ -1,0 +1,8 @@
+# .github/workflow-templates/ci.yml
+name: "Node.js CI"
+description: "A reusable CI workflow for Node.js projects"
+inputs:
+  node-version:
+    description: "Node.js version"
+    required: false
+    default: "18"
